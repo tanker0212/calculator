@@ -1,1 +1,2 @@
-# calculator
+﻿# calculator
+신입사원 - GitHub 실습을 위한 저장소입니다.
