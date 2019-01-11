@@ -10,7 +10,8 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 	
-	printf("수식입력 ㄱㄱ: ");
+	printf("Please enter a expressiongogo(ex> 1 + 2): ");
+
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
@@ -36,8 +37,7 @@ int main(int argc, char* argv[])
  
 int add(int number1, int number2)
 {
-	result = number1+number2;
-	return result;
+	return number1 + number2;
 }
  
 int sub(int number1, int number2)
@@ -47,12 +47,10 @@ int sub(int number1, int number2)
  
 int multi(int number1, int number2)
 {
-	//TODO implementation
-	return number1* number2;
+	return number1 * number2;
 }
  
 int div(int number1, int number2)
 {
-	result = number1/number2;
-	return result;
+	return number1 / number2;
 }
